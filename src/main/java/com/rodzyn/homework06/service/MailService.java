@@ -6,12 +6,10 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 
-import org.aspectj.lang.annotation.Aspect;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 @Component
-@Aspect
 public class MailService {
 
     private JavaMailSender javaMailSender;
